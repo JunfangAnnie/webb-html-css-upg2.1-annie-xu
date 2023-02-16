@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annie Xu, Övn. 2</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <!--Sidhuvud med en huvudrubrik och meny-->
+        <header id="main-header">
+            <h1>Övningsuppgifter 1, 2, 3, 4 & 6</h1>
+        <nav>
+            <a href="index.html">Recept</a>
+            <a href="sida2.html">Charterresa</a>
+            <a href="sida3.html">Aftonbladet</a>
+        </nav>
+        </header>
+        <!--Innehåll på sidan-->
+        <main>
+            <h1 class="rubrik">Recept</h1>
+            <img src="image/blueberrypancake.jpg" alt="Blåbärspannkaka">
+            <h2>Blåbärspannkaka</h2>
+            <p>God och spännande variant av den klassiska pannkakan. Blåbärspannkaka är ett mättande och uppskattat alternativ till lunch, middag eller kanske som mellanmål. Servera blåbärspannkakan med en klick vaniljglass.</p>
+            <h3>Ingredienser</h3>
+            <ul>
+                <li>3 ägg</li>
+                <li>6 dl mjölk</li>
+                <li>2 ½ dl vetemjöl</li>
+                <li>1 msk socker</li>
+                <li>½ tsk salt</li>
+                <li>300 g djupfrysta blåbär</li>
+                <li>½ dl florsocker</li>
+            </ul>
+            <h3>Gör så här</h3>
+            <ol>
+                <li>Sätt ugnen på 200°C.</li>
+                <li>Vispa ihop äggen och hälften av mjölken. Tillsätt mjölet och vispa till en klimpfri smet. Häll i resten av mjölken och tillsätt socker och salt.</li>
+                <li>Häll smeten i en lätt smord långpanna, ca 30x40 cm (för 4 port). Strö på blåbären. Grädda i ca 25 min.</li>
+                <li>Pudra över florsockret och servera blåbärspannkakan skuren i bitar med en klick vaniljglass.</li>
+            </ol>
+        </main>
+
+        <!--Formulär - inlogg-->
+        <aside class="login">
+                <h3>Logga in</h3>
+                <p>
+                    <label for="namn">Användarnamn:</label>
+                    <input type="text" id="usrname" name="usrname" required>
+                </p>
+                <p>
+                    <label for="pwd">Lösenord:</label>
+                    <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Måste innehålla minst ett nummer, en stor bokstav och små bokstäver, minst 8 eller fler tecken" required>                </p>
+                <p><input type="submit" value="Skicka"></p>
+                </form>
+        </aside>
+        <!--Sidfot med datum-->
+        <footer>
+            <p>Senast uppdaterad: 2023-01-14</p>
+        </footer>
+        </div>
+    </body>
+</html>

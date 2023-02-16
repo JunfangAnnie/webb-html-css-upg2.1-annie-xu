@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annie Xu, Övn.2</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <header id="main-header">
+            <h1>Övningsuppgifter 1, 2, 3, 4 & 6</h1>
+        <nav>
+            <a href="index.html">Recept</a>
+            <a href="sida2.html">Charterresa</a>
+            <a href="sida3.html">Aftonbladet</a>
+        </nav>
+        </header>
+        <main>
+        <h1 class="centered-text">Charterresor till solen</h1>
+        <img id="centered-img" src="image/charterresa.jpg" alt="Charterresa - palmer och hav">
+        <p class="centered-text">Charter är ett smidigt och uppskattat sätt att resa till populära sol- och badresmål över hela världen. </p>
+        <table>
+            <h2>Populära resmål</h2>
+            <thead>
+                <tr>
+                    <th>Land</th>
+                    <th>Stad</th>
+                    <th>Antal hotell</th>
+                    <th>Pris fr.</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Malta</td>
+                    <td>Malta</td>
+                    <td>22</td>
+                    <td>1 795:-</td>
+                </tr>
+                <tr>
+                    <td>Turkiet</td>
+                    <td>Alanya</td>
+                    <td>28</td>
+                    <td>2 145:-</td>
+                </tr>
+                <tr>
+                    <td>Grekland</td>
+                    <td>Kreta</td>
+                    <td>48</td>
+                    <td>3 345:-</td>
+                </tr>
+                <tr>
+                    <td>Spanien</td>
+                    <td>Mallorca</td>
+                    <td>56</td>
+                    <td>1 995:-</td>
+                </tr>
+            </tbody>
+        </table>
+        </main>
+        <aside class="charter">
+                <fieldset>
+                    <legend><b>Sök charterresa</b></legend>
+                    <p>
+                        <label for="resmål">Välj resmål:</label>
+                        <select name="Resmål" id="resmål">
+                            <option value="Malta" selected>Malta</option>
+                            <option value="Turkiet">Turkiet</option>
+                            <option value="Grekland">Grekland</option>
+                            <option value="Spanien">Grekland</option>
+                        </select>
+                    </p>
+                      <form>
+                        <label for="datum">Välj datum:</label>
+                        <input type="date" name="datum">
+                      </form>
+                    <p><input type="submit" value="Sök"></p>
+                </fieldset>
+                <fieldset>
+                    <legend><b>Anmälan till charterresa</b></legend>
+                    <p><b>Hur länge?</b></p>
+                    <input type="radio" name="Tid" value="En-vecka">
+                    <label for="en">En vecka</label><br>
+                    <input type="radio" name="Tid" value="Weekend">
+                    <label for="helg">Weekend</label><br>
+                    <input type="radio" name="Tid" value="10-till-12-dagar">
+                    <label for="flerdagar">10 till 12 dagar</label><br>
+                    <input type="radio" name="Tid" value="en-månad">
+                    <label for="månad">En månad</label>
+                    <p><b>Allergier</b></p>
+                    <input type="checkbox" id="alt1" name="Del[]" value="Gluten">
+                    <label for="alt1">Gluten</label><br>
+                    <input type="checkbox" id="alt2" name="Del[]" value="Laktos">
+                    <label for="alt2">Laktos</label><br>
+                    <input type="checkbox" id="alt3" name="Del[]" value="Nötter">
+                    <label for="alt3">Nötter</label><br>
+                    <input type="checkbox" id="alt4" name="Del[]" value="Ägg">
+                    <label for="alt4">Ägg</label><br>
+                    <input type="checkbox" id="alt6" name="Del[]" value="Soja">
+                    <label for="alt6">Soja</label><br>
+                    <p><b>Önskemål/övrigt:</b><br> <textarea name="Önskemål-övrigt" rows="3" cols="22" placeholder="Vad mer behöver vi veta?"></textarea></p>
+                    <p><b>Kontaktuppgifter:</b></p>
+                    <form>
+                        <label for="namn">För- och efternamn:</label><br>
+                        <input type="text" id="namn" name="namn"><br>
+                        <label for="phone">Telefonnummer:</label><br>
+                        <input type="tel" id="tele" name="tele" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                      </form>
+                    <p><input type="submit" value="Skicka"></p>
+                </fieldset>
+        </aside>
+        <footer>
+            <p>Senast uppdaterad: 2023-01-14</p>
+        </footer>
+        </div>
+        
+    </body>
+    </html>

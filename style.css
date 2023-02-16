@@ -1,0 +1,131 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    border-style: ridge;
+    width: 80%;
+    margin: auto;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.columns div {
+    padding: 0px 100px 0px 100px;
+    margin: 20px 100px 0px 100px;
+}
+
+.facts {    
+    box-shadow: 0 0 2px rgb(41, 41, 41);
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    padding: 1px 5px 1px 5px;
+    margin-bottom: 10px;
+}
+
+.aft-h2 {
+    background-color: red; 
+    color: white; 
+    border-radius: 3px; 
+    font-size: 12px; 
+    display: inline; 
+    padding: 3px;
+}
+
+div > a > img {width: 150px; height: auto;}
+
+#main-header {
+    background-image: url("image/header.png");
+    overflow: hidden;
+    text-align: center;
+}
+
+main > h3 > img {
+    width: auto;
+    height: auto;
+    box-shadow: none;
+}
+nav {
+    background-color: #11a1d0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+nav a {
+    padding: 30px;
+}
+
+main {
+    padding-left: 50px;
+    width: 50%;
+}
+
+th, td {    
+    padding: 10px 20px 20px 30px;
+}
+
+div img {
+    height:350px ;
+    width: auto;
+    border-radius: 5px;
+}
+
+#centered-img {   
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+.centered-text {
+    text-align: center;
+}
+
+.login {
+    box-shadow: 0 0 5px rgb(29, 123, 160);
+    background-color: #d6f2ff;
+    padding: 0px 20px 0px 20px;
+    margin: -70% 6% 6% 0%;
+    border-radius: 5px;
+    width: 13%;
+    font-size: 16px;
+    float:right;
+}
+
+.charter {
+    box-shadow: 0 0 5px rgb(41, 41, 41);
+    background-color: #f7f7f7;
+    padding: 10px 20px 20px 20px;
+    margin: -56% 3% 6% 0%;
+    border-radius: 5px;
+    width: 40%;
+    font-size: 16px;
+    float:right;
+}
+
+#aside-aftonb {    
+    float:right;
+    margin: -220% -60% 0% 0%;
+}
+
+footer {
+    background-color:#11a1d0;
+    clear: both;
+    font-size: 15px;
+    text-align: center;
+    padding: 1px;
+
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #003172;
+}
