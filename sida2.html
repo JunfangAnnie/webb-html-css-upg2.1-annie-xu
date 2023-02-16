@@ -21,8 +21,8 @@
         <h1 class="centered-text">Charterresor till solen</h1>
         <img id="centered-img" src="image/charterresa.jpg" alt="Charterresa - palmer och hav">
         <p class="centered-text">Charter är ett smidigt och uppskattat sätt att resa till populära sol- och badresmål över hela världen. </p>
+        <h2>Populära resmål</h2>
         <table>
-            <h2>Populära resmål</h2>
             <thead>
                 <tr>
                     <th>Land</th>
@@ -73,20 +73,20 @@
                     </p>
                       <form>
                         <label for="datum">Välj datum:</label>
-                        <input type="date" name="datum">
+                        <input type="date" id="datum" name="datum">
                       </form>
                     <p><input type="submit" value="Sök"></p>
                 </fieldset>
                 <fieldset>
                     <legend><b>Anmälan till charterresa</b></legend>
                     <p><b>Hur länge?</b></p>
-                    <input type="radio" name="Tid" value="En-vecka">
+                    <input type="radio" name="Tid" id="en" value="En-vecka">
                     <label for="en">En vecka</label><br>
-                    <input type="radio" name="Tid" value="Weekend">
+                    <input type="radio" name="Tid" id="helg" value="Weekend">
                     <label for="helg">Weekend</label><br>
-                    <input type="radio" name="Tid" value="10-till-12-dagar">
+                    <input type="radio" name="Tid" id="flerdagar" value="10-till-12-dagar">
                     <label for="flerdagar">10 till 12 dagar</label><br>
-                    <input type="radio" name="Tid" value="en-månad">
+                    <input type="radio" name="Tid" id="månad" value="en-månad">
                     <label for="månad">En månad</label>
                     <p><b>Allergier</b></p>
                     <input type="checkbox" id="alt1" name="Del[]" value="Gluten">
@@ -105,7 +105,7 @@
                         <label for="namn">För- och efternamn:</label><br>
                         <input type="text" id="namn" name="namn"><br>
                         <label for="phone">Telefonnummer:</label><br>
-                        <input type="tel" id="tele" name="tele" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        <input type="tel" id="phone" name="tele" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
                       </form>
                     <p><input type="submit" value="Skicka"></p>
                 </fieldset>
